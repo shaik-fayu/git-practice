@@ -1,0 +1,41 @@
+
+
+
+ 1  yum update -y
+    2  yum install git -y
+    3  git config --global user.email "v.saikumar313@gmail.com"
+    4  git config --global user.name "sai-313"
+    5  git init
+    6  ls -la
+    7  cat .gitconfig 
+    8  cd .git
+    9  ls
+   10  cat config
+   11  cd ..
+   12  vim sai
+   13  git status
+   14  git add .
+   15  git status
+   17  git commit -m "sai"
+   18  git commit -m sai
+   19  git status
+   20  vim sai
+   21  git status
+   22  git commit -m sai
+   23  git status
+   24  git add .
+   25  git commit -m sai
+   26  git status
+   27  git remote add origin
+   28  git remote add origin https://github.com/sai-313/demo-git.git
+   29  git push -u origin master
+   30  vim sai
+   31  git add .
+   34  git commit -m "sai"
+   36  git push -u origin master
+   39  git push origin --delete sai
+   40  git push origin --delete "sai"
+   41  git rm "sai"
+   42  git commit -m "sai"
+   43  git push -u origin master
+
